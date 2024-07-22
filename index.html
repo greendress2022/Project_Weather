@@ -7,33 +7,66 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <!-- nav -->
-    <nav class="nav">
-      <div class="logo">
-        <a href="/">
-          <img
-            src="./weatherstack_logo_white.png"
-            alt="weatherstack_logo_white"
-          />
-        </a>
-      </div>
-      <ul class="nav-links">
-        <!-- eight links -->
-        <li>
-          <a href="/pricing">Pricing</a>
-        </li>
-        <li>
-          <a href="/documentation">documentation</a>
-        </li>
-        <li>
-          <a href="/faq">FAQ</a>
-        </li>
-        <li><a href="/affiliates">Affiliates</a></li>
-        <li><a href="Blog">Blog</a></li>
-        <li class="nav-status"><a href="/staus">Status</a></li>
-        <li class="log-in"><a href="/login">Log In</a></li>
-        <li class="sign-up"><a href="/signup">SIGN UP FREE</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <!-- nav -->
+      <nav class="header nav">
+        <div class="top">
+          <div class="logo">
+            <a href="/">
+              <img
+                src="./weatherstack_logo_white.png"
+                alt="weatherstack_logo_white"
+              />
+            </a>
+          </div>
+          <ul class="nav-links">
+            <!-- eight links -->
+            <li>
+              <a href="/pricing">Pricing</a>
+            </li>
+            <li>
+              <a href="/documentation">Documentation</a>
+            </li>
+            <li>
+              <a href="/faq">FAQ</a>
+            </li>
+            <li><a href="/affiliates">Affiliates</a></li>
+            <li><a href="Blog">Blog</a></li>
+            <li class="nav-status">
+              <a href="/staus" target="_blank"> Status</a>
+            </li>
+            <li class="log-in"><a href="/login">Log In</a></li>
+            <li class="sign-up"><a href="/signup">SIGN UP FREE</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- index section -->
+      <section class="index">
+        <div class="text-area">
+          <div class="text-area-left">
+            <h2>
+              Real-Time & Historical
+              <br />
+              World Weather Data API
+            </h2>
+            <h4>
+              any location in the world in lightweight JSON format
+              <br />
+              Retrieve instant, accurate weather information for
+            </h4>
+            <div class="number">Trusted by 75,000 companies worldwide</div>
+          </div>
+          <div class="text-area-right">
+            <div class="location">US</div>
+            <div class="animated-logo">cloudy</div>
+            <div class="info">
+              <div>Wind: 13 kmph</div>
+              <div>Precip: 0 mm</div>
+              <div>Pressure: 1015 mb</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
