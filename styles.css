@@ -456,7 +456,7 @@ h4 {
 .methods-container {
   border: solid black;
   max-width: 1170px;
-  height: 600px;
+  /* height: 1000px; */ /*as large as needed if not set*/
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -495,4 +495,75 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+.click-to-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+  /* background-color: #c0c1d4; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+.click-to-change li {
+  list-style: none;
+  display: inline-block;
+  width: 225px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.with-radius-first {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.with-radius-last {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.click-to-change li a {
+  width: 204px; /* change the value to a smaller one, why no longer centered */
+  display: inline-block;
+  padding: 16px 10px 18px 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.with-radius-first.selected-first {
+  background-color: #f47b21;
+  border-color: #f47b21;
+  color: black;
+}
+.results {
+  display: block;
+  background-color: #17242b;
+  /* border: solid red; */
+  height: 200px;
+  width: 673px;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: auto;
+  text-align: left;
+}
+.flex-container-for-six {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1140px;
+  /* height: 300px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-item-of-six {
+  display: block;
+  /* border: solid red; */
+  height: 140px;
+  width: 370px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: left;
 }
