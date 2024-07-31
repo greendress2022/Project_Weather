@@ -567,3 +567,118 @@ h4 {
   background-color: rgba(255, 255, 255, 0.1);
   text-align: left;
 }
+.grid-container {
+  /* border: solid blue; */
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.grid-container h4 {
+  /* border: solid blue; */
+  font-size: 25px;
+  line-height: normal;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.grid-container h5 {
+  /* border: solid blue; */
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 300;
+  max-width: 560px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font: 18px Helvetica, Arial, san-serif;
+}
+h5,
+p {
+  font: Helvetica, Arial, san-serif;
+}
+.grid-container ul {
+  font-size: 0;
+  text-align: center;
+}
+.grid-container ul li {
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  border: solid saddlebrown;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.grid-container ul li.daimler {
+  background: #263e6a url(./client_white_daimler.svg);
+  background-size: 175px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.grid-container ul li.deloitte {
+  background: #eef2f5 url(./client_deloitte.svg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.grid-container ul li.e {
+  background: #01275b url(./client_white_ericsson_2.svg);
+  background-size: 65px;
+  width: 105px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.grid-container ul li.m {
+  background: #eef2f5 url(./client_microsoft.svg);
+  background-size: 175px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.grid-container ul li.s {
+  background: #009e4d url(./client_white_schneider.svg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.grid-container ul li.w {
+  background: #027ac2 url(./client_white_warnerbros.svg);
+  background-size: 65px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+}
+.grid-container ul li.wawa {
+  background: #ee2e25 url(./client_white_wawa.svg);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 190px;
+}
+.grid-container ul li.ca {
+  background: #eef2f5 url(./client_canda.svg);
+  background-size: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 253px;
+}
+.grid-container ul li.mc {
+  background: #23477f url(./client_mckinsey.svg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 260px;
+}
+.grid-container ul li.r {
+  background: #eef2f5 url(./client_rimowa.svg);
+  background-size: 155px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
