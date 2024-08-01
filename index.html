@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weatherstack</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.css">
 
   </head>
   <body>
@@ -156,22 +156,23 @@
         </div>
       </section>
      <section class="map-area">
-      <div class="map-area-container">
-        <div class="left-details">
-        <h4>Access to Global Weather Data, Developer-friendly</h4>
-        <p>Get instant access to accurate weather data for any geo-point in the world and enjoy a rich set of capabilities:</p>
-        <ul>
-          <li class="realtime">	Real-Time Weather API</li>
-          <li class="historical">Historical Weather API</li>
-          <li class="forecasts">Weather Forecasts API</li>
-          <li class="autocomplete">Location Autocomplete</li>
-          <li class="endpoint">Bulk API Endpoint</li>
-        </ul>
+        <div class="map-area-left">
+          <div class="left-details">
+            <h4>Access to Global Weather Data, Developer-friendly</h4>
+            <p>Get instant access to accurate weather data for any geo-point in the world and enjoy a rich set of capabilities:</p>
+            <ul>
+              <li ><i class="fa-regular fa-clock"></i><span>Real-Time Weather API</span></li>
+              <li ><i class="fa-solid fa-spinner"></i></i>Historical Weather API</li>
+              <li ><i class="fa-regular fa-calendar"></i>Weather Forecasts API</li>
+              <li ><i class="fa-solid fa-traffic-light"></i><span>Location Autocomplete</span></li>
+              <li ><i class="fa-solid fa-layer-group"></i>Bulk API Endpoint</li>
+            </ul>
+          </div> 
         </div>
         <div class="right-map">
           <img src="./world_map_vector.svg" alt="world map">
         </div>
-      </div>
+    
      </section>
      <section class="methods">
       <div class="methods-container">
@@ -219,6 +220,55 @@
       </div>
 
     </section>
+    <section class="row-only">
+      <div class="row-only-container">
+        <span>Sign up for our Free Plan to get instant access to weather data </span>
+        <a href="/signup/free">Get Free API Access</a>
+      </div>
+    </section>
+    <footer>
+      <div class="bottom-container">
+        <div class="five-cols first-col">
+          <a href="/"><img src="./weatherstack_logo_footer.png" alt="weatherstack_logo_footer"></a>
+          <div class="social-links">
+            <span><a target="_blank" href="https://www.facebook.com/APILayer/"><img src="./facebook-original.svg" alt="facebook logo"></a></span>
+            <span><a target="_blank" href="https://www.instagram.com/apilayer/"><img src="./instagram.png" alt=""></a></span>
+            <span><a target="_blank" href="https://www.youtube.com/channel/UCwDncja3klyMhkKXWV1zoNQ"><img src="./youtube.png" alt="youtube logo"></a></span>
+            <span><a target="_blank" href="https://x.com/apilayer/"><img src="./twitter-original.svg" alt="twitter logo"></a></span>
+            <span><a target="_blank" href="https://www.linkedin.com/company/apilayer/"><img src="./linkedin-original.svg" alt="linkedin logo"></a></span> 
+          </div>
+        </div>
+        <div class="five-cols">
+          <div class="second-col larger">PRODUCT</div>
+          <div class="second-col"><a href="/product">Pricing</a></div>
+          <div class="second-col"><a target="_blank" href="https://apilayer.com/provider" hreflang="en">List Your API</a></div>
+          <div class="second-col"><a target="_blank" href="https://apilayer.com/why-choose-apilayer" hreflang="en">Why choose us?</a></div>
+          <div class="second-col"><a target="_blank" href="https://apilayer.com/marketplace" hreflang="en">Marketplace</a></div>
+          <div class="second-col"><a title="Affiliate Program" href="/affiliates">Affiliates</a></div>
+        </div>
+        <div class="five-cols">
+          <div class="second-col larger">DOCS & HELP</div>
+          <div class="second-col"><a href="/documentation" hreflang="en">Documentation</a></div>
+          <div class="second-col"><a href="https://blog.weatherstack.com/" hreflang="en">Blog</a></div>
+          <div class="second-col"><a href="/faq" hreflang="en">FAQs</a></div>
+          <div class="second-col"><a href="/api-glossary" hreflang="en">API Glossary</a></div>
+        </div>
+        <div class="five-cols">
+          <div class="second-col larger">ACCOUNT</div>
+          <div class="second-col"><a href="/login" hreflang="en">Log In</a></div>
+          <div class="second-col"><a href="/forgot" hreflang="en">Forgot Password</a></div>
+          <div class="second-col"><a href="/signup/free" hreflang="en">FREE Signup</a></div>
+        </div>
+        <div class="five-cols">
+          <div class="second-col larger">GET IN TOUCH</div>
+          <div class="second-col"><a href="/contact" class="apilayer-support" hreflang="en">Contact</a></div>
+          <div class="second-col"><a href="/contact" class="apilayer-support" hreflang="en">Get a quote</a></div>
+        </div>
+      </div>
+      <div class="copyright-container">
+
+      </div>
+    </footer>
     </div>
   </body>
 </html>
