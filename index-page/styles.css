@@ -6,6 +6,7 @@
   font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
+  position: relative;
 }
 
 .main-first-page {
@@ -34,6 +35,16 @@ section {
   height: 28px;
   margin: 0px 10px 0px 0px;
 }
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000;
+  height: 80px;
+}
+
 /* links in navbar */
 .nav-links a {
   color: white;
@@ -93,35 +104,36 @@ section {
 }
 
 .text-area-left {
-  margin-top: 20px;
+  margin-top: 180px;
 }
 .row-below-number {
   margin: 45px 5px 5px 0;
 }
 .free {
-  font-family: FriendlyFont, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button.start-btn {
   background: #f47b21;
   margin-top: 20px;
   white-space: nowrap;
+  text-decoration: none;
   width: 230px;
-  height: 60px;
   border-radius: 3px;
-  padding: 20px 12px;
+  padding: 40px 50px;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   margin-right: 5px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.05), 0 1px 3px rgba(0, 0, 0, 0.05);
   text-align: center;
-  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
 }
 
 .text-area-right {
-  margin-top: 20px;
+  margin-top: 180px;
   width: 492px;
   height: 300px;
   font-family: Promo, Helvetica, Arial, sans-serif;
@@ -331,7 +343,7 @@ h4 {
 }
 .advantages {
   width: 100%;
-  height: 327px;
+  height: 250px;
 }
 .four-advantages {
   width: 1170px;
@@ -577,24 +589,22 @@ code {
 }
 
 .grid-container {
-  /* border: solid blue; */
   max-width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 30px 15px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.grid-container h4 {
-  /* border: solid blue; */
+.grid-container-text {
+  text-align: center;
   font-size: 25px;
-  line-height: normal;
   font-weight: 300;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 30px;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-container h5 {
@@ -611,11 +621,12 @@ code {
 }
 h5,
 p {
-  font: Helvetica, Arial, san-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .grid-container ul {
   font-size: 0;
   text-align: center;
+  margin-bottom: 20px;
 }
 .grid-container ul li {
   display: inline-block;
@@ -705,9 +716,11 @@ p {
   content: "\2192";
 }
 .row-only a {
+  font-weight: 600;
   display: inline-block;
   width: 200px;
   background-color: #f47b21;
+  text-decoration: none;
   border-radius: 5px;
   height: 50px;
   line-height: 50px;

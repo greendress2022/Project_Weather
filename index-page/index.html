@@ -13,7 +13,7 @@
       <section class="main-first-page">
         <div class="first-page-top">
           <!-- nav -->
-          <nav>
+          <nav id="navbar" >
             <div class="top">
               <div class="logo">
                 <a href="/">
@@ -26,7 +26,7 @@
               <ul class="nav-links">
                 <!-- eight links -->
                 <li>
-                  <a href="/pricing">Pricing</a>
+                  <a href="../pricing-page/pricing.html">Pricing</a>
                 </li>
                 <li>
                   <a href="/documentation">Documentation</a>
@@ -270,7 +270,7 @@
     </section>
     <section class="grid">
       <div class="grid-container">
-        <h4>Join more than 75,000 companies worldwide using the weatherstack API</h4>
+        <div class="grid-container-text">Join more than 75,000 companies worldwide using the weatherstack API</div>
         <h5>We are proud of delivering accurate weather data to some of the smartest brands out there.</h5>
         <ul>
           <li class="daimler"></li>
@@ -343,5 +343,17 @@
       </div>
     </footer>
     </div>
+    <script>
+      // script.js
+    window.addEventListener('scroll', () => {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 50) { 
+            navbar.style.backgroundColor = "#164058";
+        } else {
+            navbar.style.backgroundColor = 'transparent';
+        }
+    });
+
+    </script>
   </body>
 </html>
